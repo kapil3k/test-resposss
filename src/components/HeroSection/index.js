@@ -71,7 +71,7 @@ const HeroSection = () => {
           <Button size="large" type="primary">
             Start 14-days free trial
           </Button>
-          <Button size="large" className={windowSize > 700 ? "m-2" : "my-2"}>
+          <Button size="large" className={windowSize > 400 ? "m-2" : "my-2"}>
             Start Product Tour
           </Button>
           <p className="text-secondary">No credit card required</p>
